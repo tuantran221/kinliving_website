@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'IBM Plex Sans';
+    
+}
+    .header_nav span{
+        font-size: 15px;
+        padding-left: 4rem;
+        font-weight:bold;
+
+    }
+    .header_span_1:hover, .header_span_2:hover{
+        color: rgb(237,125,62);
+        cursor: pointer;
+    }
+  
+       

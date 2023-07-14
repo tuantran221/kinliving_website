@@ -1,0 +1,77 @@
+.middle_banner{
+    display: grid;
+    grid-template-areas: "aa aa bb bb bb bb bb cc cc";
+}
+    .middle_banner_card{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        grid-area: bb;
+        background-color: red;
+        height: 350px;
+        /* display: flex; */
+        /* justify-content: center;
+        text-align: center; */
+        border-radius: 20px;
+        background-color:rgb(234,218,177);
+        font-family: 'IBM Plex Sans', sans-serif;
+       
+    }
+        .middle_banner_text{
+            justify-content: center;
+            text-align: center;
+            padding: 2.5rem;
+        }
+            .middle_banner_text span{
+                font-size: 2.7rem;
+                font-weight: bold;
+            } 
+             .middle_banner_text p{
+                font-size: 15px;
+                margin-top: 1.3rem;
+           
+            }
+
+    .middle_banner_icon{
+     /* column-gap: 20px;    */
+     margin-top: 1rem;
+     font-size: 13px;
+     display: grid;
+     grid-template-areas: "ww aa bb cc dd ee ff gg hh kk ll";
+    }
+        .middle_banner_tree{
+            grid-area: bb;
+
+        }
+        .middle_banner_kitchen{
+            grid-area: cc;
+        }
+        .middle_banner_bathroom{
+            grid-area: dd;
+        }
+        .middle_banner_lunderette{
+            grid-area: ee;
+        }
+        .middle_banner_headPhone{
+            grid-area: ff;
+        }
+        .middle_banner_service{
+            grid-area: gg;
+        }
+        .middle_banner_wifi{
+            grid-area: hh;
+        }
+        .middle_banner_community{
+            grid-area: kk;
+        }
+        .middle_banner_subtext span{
+            display: flex;
+            text-align: center;
+            /* justify-content: center; */
+            margin-top: 1rem;
+         
+            
+        }
+     
+
+        
+    
