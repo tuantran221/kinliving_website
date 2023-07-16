@@ -1,0 +1,49 @@
+
+ .bottom-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+  
+ }
+ .bottom-banner-img{
+        object-fit: fill;
+        object-position: center;
+        width: 100%;
+    }
+
+    .bottom-banner-text{
+        position: absolute;
+        width: 700px;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    .bottom_banner_button{
+        position: absolute;
+        top: 55%;
+        left: 41%;
+        width: 15rem;
+        height: 2.7rem;
+        border: none;
+        border-radius: 20px;
+        background-color: white;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        padding-bottom: 7px;
+    }
+    .bottom_banner_button:hover{
+        background-color: rgb(237,125,62);
+        color: white;
+      }
+        .bottom-btn-icon{
+            margin-right: 0.7rem;
+        }
+@media (max-width: 767px) {
+    .bottom-banner{
+        display: none;
+    }
+}

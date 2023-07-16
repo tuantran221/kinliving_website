@@ -1,0 +1,6 @@
+.app-wrapper{
+    font-family: var(--font-family);
+}
+    .app-wrapper-body{
+        background-color: var(--primary-color);
+    }

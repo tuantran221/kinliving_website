@@ -1,72 +1,66 @@
-.middle_banner{
+.middle-banner{
     display: grid;
     grid-template-areas: "aa aa bb bb bb bb bb cc cc";
 }
-    .middle_banner_card{
-        margin-top: 5rem;
-        margin-bottom: 2rem;
+    .middle-banner-card{
+        margin-top: 3rem;
+        margin-bottom: 7rem;
         grid-area: bb;
         background-color: red;
         height: 350px;
-        /* display: flex; */
-        /* justify-content: center;
-        text-align: center; */
         border-radius: 20px;
         background-color:rgb(234,218,177);
-        font-family: 'IBM Plex Sans', sans-serif;
        
     }
-        .middle_banner_text{
+        .middle-banner-text{
             justify-content: center;
             text-align: center;
             padding: 2.5rem;
         }
-            .middle_banner_text span{
+            .middle-banner-text span{
                 font-size: 2.7rem;
                 font-weight: bold;
             } 
-             .middle_banner_text p{
+             .middle-banner-text p{
                 font-size: 15px;
                 margin-top: 1.3rem;
            
             }
 
-    .middle_banner_icon{
-     /* column-gap: 20px;    */
+    .middle-banner-icon{
      margin-top: 1rem;
      font-size: 13px;
      display: grid;
      grid-template-areas: "ww aa bb cc dd ee ff gg hh kk ll";
     }
-        .middle_banner_tree{
+        .middle-banner-tree{
             grid-area: bb;
 
         }
-        .middle_banner_kitchen{
+        .middle-banner-kitchen{
             grid-area: cc;
         }
-        .middle_banner_bathroom{
+        .middle-banner-bathroom{
             grid-area: dd;
         }
-        .middle_banner_lunderette{
+        .middle-banner-lunderette{
             grid-area: ee;
         }
-        .middle_banner_headPhone{
+        .middle-banner-headPhone{
             grid-area: ff;
         }
-        .middle_banner_service{
+        .middle-banner-service{
             grid-area: gg;
         }
-        .middle_banner_wifi{
+        .middle-banner-wifi{
             grid-area: hh;
         }
-        .middle_banner_community{
+        .middle-banner-community{
             grid-area: kk;
         }
-        .middle_banner_subtext span{
+        .middle-banner-subtext span{
             display: flex;
             text-align: center;
-            /* justify-content: center; */
             margin-top: 1rem;
          
             
@@ -74,4 +68,8 @@
      
 
         
-    
+@media (max-width: 767px) {
+    .middle-banner{
+        display: none;
+    }
+}   

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Middle_banner.css";
+import "../Styles/MiddleBanner.css";
 import Tree from "../assets/icon/tree.webp";
 import Kitchen from "../assets/icon/kitchen.webp";
 import BathRoom from "../assets/icon/shower.webp";
@@ -10,9 +10,9 @@ import Wifi from "../assets/icon/wifi.webp";
 import Community from "../assets/icon/exclamation_mark.webp";
 const Middle_banner = () => {
   return (
-    <div className="middle_banner">
-      <div className="middle_banner_card">
-        <div className="middle_banner_text">
+    <div className="middle-banner">
+      <div className="middle-banner-card">
+        <div className="middle-banner-text">
           <span>Lift up your living experience</span>
           <br></br>
           <p>
@@ -21,82 +21,82 @@ const Middle_banner = () => {
             in.
           </p>
         </div>
-        <div className="middle_banner_icon">
-          <div className="middle_banner_tree">
-            <div className="middle_banner_icon_tree">
+        <div className="middle-banner-icon">
+          <div className="middle-banner-tree">
+            <div className="middle-banner-icon-tree">
               <img style={{paddingLeft: '12px'}} src={Tree} alt="tree" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner-subtext">
               <span>
                 Greenery <br></br> Landscape
               </span>
             </div>
           </div>
-          <div className="middle_banner_kitchen">
-            <div className="middle_banner_icon_kitchen">
+          <div className="middle-banner-kitchen">
+            <div className="middle-banner-icon-kitchen">
               <img style={{paddingLeft: '4px'}} src={Kitchen} alt="kitchen" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner-subtext">
               <span>
                 Modern <br></br> kitchen
               </span>
             </div>
           </div>
-          <div className="middle_banner_bathroom">
-            <div className="middle_banner_icon_bathroom">
+          <div className="middle-banner-bathroom">
+            <div className="middle-banner-icon-bathroom">
               <img style={{paddingLeft: '10px'}}  src={BathRoom} alt="bathroom" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner-subtext">
               <span>
                 Private <br></br> bathroom
               </span>
             </div>
           </div>
-          <div className="middle_banner_lunderette">
-            <div className="middle_banner_icon_launderette">
+          <div className="middle-banner-lunderette">
+            <div className="middle-banner-icon-launderette">
               <img style={{paddingLeft: '15px'}}  src={Launderette} alt="launderette" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner_subtext">
               <span>
                 Free <br></br>Launderette
               </span>
             </div>
           </div>
-          <div className="middle_banner_headPhone">
-            <div className="middle_banner_icon_headPhone">
+          <div className="middle-banner-headPhone">
+            <div className="middle-banner-icon-headPhone">
               <img src={HeadPhone} alt="headPhone" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner_subtext">
               <span>
                 Security <br></br>24/7
               </span>
             </div>
           </div>
-          <div className="middle_banner_service">
-            <div className="middle_banner_icon_service">
+          <div className="middle-banner-service">
+            <div className="middle-banner-icon-service">
               <img style={{paddingLeft: '28px'}} src={Service} alt="Service" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner-subtext">
               <span>
                 Room Cleaning <br></br>Service
               </span>
             </div>
           </div>
-          <div className="middle_banner_wifi">
-            <div className="middle_banner_icon_wifi">
+          <div className="middle-banner-wifi">
+            <div className="middle-banner-icon-wifi">
               <img style={{paddingLeft: '15px'}} src={Wifi} alt="Wifi" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner-subtext">
               <span>
                 High Speed <br></br>Wifi
               </span>
             </div>
           </div>
-          <div className="middle_banner_community">
-            <div className="middle_banner_icon_community">
+          <div className="middle-banner-community">
+            <div className="middle-banner-icon-community">
               <img style={{paddingLeft: '18px'}} src={Community} alt="bathroom" />
             </div>
-            <div className="middle_banner_subtext">
+            <div className="middle-banner-subtext">
               <span>
                 Civilized <br></br> communitye
               </span>

@@ -1,55 +1,73 @@
-.footer{
+.footer-wrapper{
     height: 530px;
     margin-top: -1rem;
     display: flex;
-    /* flex-direction: row; */
     color: white;
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 15px;
+    background-color: var(--footer-color);
     
     
 }   
-    .footer_left{
+    .footer-left{
         margin-top: 9rem;
         margin-left: 6rem;
     }
-        .footer_left_logo{
-           
-        }
-        .footer_left_icon{
+
+        .footer-left-icon{
             margin-top: 2.0rem;
         }
-        .footer_left_copyright{
+        .footer-left-copyright{
             display: flex;
             margin-top: 2rem;
         }
 
-    .footer_right{
+    .footer-right{
         display: flex;
         flex-direction: row;
         margin-left: 400px;
         margin-top: 9rem;
     }
-        .footer_right p{
+        .footer-right p{
             margin-top: 1.3rem;
+            cursor: pointer;
         }
-        .footer_right span{
+            .footer-right p:hover{
+                color:rgb(237,125,62);
+            }
+        .footer-right span{
             margin-bottom: 0.5rem;
             font-weight: bolder;
             color: rgb(237,125,62);
         }
 
-        .footer_right_about{
+        .footer-right-about{
             display: flex;
             flex-direction: column;
         }
-        .footer_right_support{
-            display: flex;
-            flex-direction: column;
-            margin-left: 40px;
-        }
-        .footer_right_contact{
+        .footer-right-support{
             display: flex;
             flex-direction: column;
             margin-left: 40px;
         }
+        .footer-right-contact{
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+        }
+
+@media (max-width: 767px) {
+    .footer-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+    }
+    .footer-left{
+        margin: 0;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .footer-right{
+        margin: 0;
+        margin-left: 1rem;
+    }
+}   

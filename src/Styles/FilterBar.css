@@ -1,0 +1,32 @@
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 7px;
+    margin-top: 1.6rem;
+    
+  }
+  
+  .filter-button {
+    width: 8rem;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .filter-button.active {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgb(237, 125, 62) 6px, transparent 2px);
+    background-size: 100% 4px;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    font-weight: bold;
+  }
+  
+ 
