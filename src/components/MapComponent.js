@@ -66,10 +66,10 @@ const MapComponent = ({ address }) => {
       ref={mapContainerRef}
       style={{
         height: "300px",
-        width: "31.5%",
+        width: "33.1%",
         display: "flex",
         float: "right",
-        marginRight: "4.7rem",
+        // marginRight: "4.7rem",
         borderRadius: "20px",
       }}
     ></div>

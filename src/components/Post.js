@@ -16,25 +16,26 @@ const Post = () => {
   };
   return (
     <div className="post-wrapper">
-      <div className="post-location">
+     <div className="post-wrapper-sub">
+     <div className="post-location">
         Location
       </div>
       <div className="post-filter">
         <FilterBar onFilter={handleFilter} />
       </div>
-
-      <div className="post-wrapper-all">
-        {filteredPosts.map((post) => (
-          <PostCard 
-            key={post.id}
-            id={post.id}
-            cover_image={post.cover_image}
-            title={post.title}
-            subtitle={post.subtitle}
-            price={post.price}
-          />
-        ))}
-      </div>
+     </div>
+        <div className="post-wrapper-all-post">
+          {filteredPosts.map((post) => (
+            <PostCard 
+              key={post.id}
+              id={post.id}
+              cover_image={post.cover_image}
+              title={post.title}
+              subtitle={post.subtitle}
+              price={post.price}
+            />
+          ))}
+        </div>  
     </div>
   );
 };

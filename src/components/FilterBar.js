@@ -32,7 +32,7 @@ const FilterBar = ({ onFilter }) => {
           </button>
         ))}
       </div>
-      <hr style={{width:"93%"}}></hr>
+      <hr style={{width:"90%"}}></hr>
     </div>
   );
 };
